@@ -1,4 +1,4 @@
-# GROUP 5
+# FreeRTOS: Ingress Firewall design and Integration with IDS
 
 ## PART 1
 - Installation instructions for QEMU, compile from source and target compile options
