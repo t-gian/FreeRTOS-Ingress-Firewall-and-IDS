@@ -1,0 +1,19 @@
+ruleset:
+  - source: 192.168.122.50
+    destination: 192.168.122.10
+    port_source: 200
+    port_destination: 4050
+    protocol: 17
+    action: 0
+  - source: 192.168.122.1
+    destination: 192.168.122.10
+    port_source: 200
+    port_destination: 33
+    protocol: 6
+    action: 0
+  - source: 192.168.122.1
+    destination: 192.168.122.10
+    port_source: ANY
+    port_destination: ANY
+    protocol: 1
+    action: 0

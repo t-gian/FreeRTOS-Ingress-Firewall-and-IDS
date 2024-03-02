@@ -1,0 +1,188 @@
+0->prvMiscInitialisation 299: Seed for randomiser: 32
+0->prvMiscInitialisation 306: Random numbers: 00000376 00002583 00007E53 00005C91
+0->main_tcp_echo_client_tasks 163: FreeRTOS_IPInit
+0->FreeRTOS_AddEndPoint 308: FreeRTOS_AddEndPoint: MAC: 34-ad IPv4: c0a87a0aip
+0x2000c648->main_tcp_echo_client_tasks 193: vTaskStartScheduler
+0x2000c648->prvIPTask 255: prvIPTask started
+0x2000c648->vApplicationIPNetworkEventHook_Multi 256: 
+
+IP Address: 192.168.122.10
+0x2000c648->vApplicationIPNetworkEventHook_Multi 259: Subnet Mask: 255.255.255.0
+0x2000c648->vApplicationIPNetworkEventHook_Multi 262: Gateway Address: 192.168.122.1
+0x2000c648->vApplicationIPNetworkEventHook_Multi 265: DNS Server Address: 192.168.122.1
+
+
+0x2000c648->prvProcessIPPacket 1894: prvProcessIPPacket: Undefined Frame Type 
+connecting to echo server....
+0x20016418->prvTCPConnectStart 3714: FreeRTOS_connect: 22011 to c0a87a01ip:5000
+0x20016418->vTCPStateChange 529: Socket 22011 -> [192.168.122.1]:5000 State eCLOSED->eCONNECT_SYN
+0x2000c648->eARPGetCacheEntryGateWay 1089: ARP c0a87a01ip miss using c0a87a01ip
+0x2000c648->prvTCPPrepareConnect_IPV4 355: ARP for c0a87a01ip (using c0a87a01ip): rc=0 00-00-00-00-00-00
+0x2000c648->prvTCPNextTimeout 590: Connect[c0a87a01ip:5000]: next timeout 1: 500 ms
+0x2000c648->prvProcessIPPacket 1894: prvProcessIPPacket: Undefined Frame Type 
+0x2000c648->prvProcessIPPacket 1894: prvProcessIPPacket: Undefined Frame Type 
+0x2000c648->prvProcessIPPacket 1894: prvProcessIPPacket: Undefined Frame Type 
+0x2000c648->prvProcessIPPacket 1894: prvProcessIPPacket: Undefined Frame Type 
+0x2000c648->eARPGetCacheEntryGateWay 1089: ARP c0a87a01ip miss using c0a87a01ip
+0x2000c648->prvTCPPrepareConnect_IPV4 355: ARP for c0a87a01ip (using c0a87a01ip): rc=0 00-00-00-00-00-00
+0x2000c648->prvTCPNextTimeout 590: Connect[c0a87a01ip:5000]: next timeout 2: 500 ms
+0x2000c648->prvProcessIPPacket 1894: prvProcessIPPacket: Undefined Frame Type 
+0x2000c648->prvProcessIPPacket 1894: prvProcessIPPacket: Undefined Frame Type 
+0x2000c648->eARPGetCacheEntryGateWay 1089: ARP c0a87a01ip miss using c0a87a01ip
+0x2000c648->prvTCPPrepareConnect_IPV4 355: ARP for c0a87a01ip (using c0a87a01ip): rc=0 00-00-00-00-00-00
+0x2000c648->prvTCPNextTimeout 590: Connect[c0a87a01ip:5000]: next timeout 3: 500 ms
+0x2000c648->prvProcessIPPacket 1894: prvProcessIPPacket: Undefined Frame Type 
+0x2000c648->prvProcessIPPacket 1894: prvProcessIPPacket: Undefined Frame Type 
+0x2000c648->prvTCPSendPacket 134: Connect: giving up c0a87a01ip:5000
+0x2000c648->vTCPStateChange 304: Move from eCONNECT_SYN to eCLOSE_WAIT
+0x2000c648->vTCPStateChange 529: Socket 22011 -> [192.168.122.1]:5000 State eCONNECT_SYN->eCLOSE_WAIT
+0x20016418->FreeRTOS_connect 3850: FreeRTOS_connect() stopped due to an error
+Could not connect to server -128
+0x2000c648->vSocketClose 2156: FreeRTOS_closesocket[0ip port 22011 to c0a87a01ip port 5000]: buffers 60 socks 0
+0x2000c648->prvProcessIPPacket 1894: prvProcessIPPacket: Undefined Frame Type 
+connecting to echo server....
+0x20016418->prvTCPConnectStart 3714: FreeRTOS_connect: 31651 to c0a87a01ip:5000
+0x20016418->vTCPStateChange 529: Socket 31651 -> [192.168.122.1]:5000 State eCLOSED->eCONNECT_SYN
+0x2000c648->eARPGetCacheEntryGateWay 1089: ARP c0a87a01ip miss using c0a87a01ip
+0x2000c648->prvTCPPrepareConnect_IPV4 355: ARP for c0a87a01ip (using c0a87a01ip): rc=0 00-00-00-00-00-00
+0x2000c648->prvTCPNextTimeout 590: Connect[c0a87a01ip:5000]: next timeout 1: 500 ms
+0x2000c648->eARPGetCacheEntryGateWay 1089: ARP c0a87a01ip miss using c0a87a01ip
+0x2000c648->prvTCPPrepareConnect_IPV4 355: ARP for c0a87a01ip (using c0a87a01ip): rc=0 00-00-00-00-00-00
+0x2000c648->prvTCPNextTimeout 590: Connect[c0a87a01ip:5000]: next timeout 2: 500 ms
+0x2000c648->eARPGetCacheEntryGateWay 1089: ARP c0a87a01ip miss using c0a87a01ip
+0x2000c648->prvTCPPrepareConnect_IPV4 355: ARP for c0a87a01ip (using c0a87a01ip): rc=0 00-00-00-00-00-00
+0x2000c648->prvTCPNextTimeout 590: Connect[c0a87a01ip:5000]: next timeout 3: 500 ms
+0x2000c648->prvProcessIPPacket 1894: prvProcessIPPacket: Undefined Frame Type 
+0x2000c648->prvTCPSendPacket 134: Connect: giving up c0a87a01ip:5000
+0x2000c648->vTCPStateChange 304: Move from eCONNECT_SYN to eCLOSE_WAIT
+0x2000c648->vTCPStateChange 529: Socket 31651 -> [192.168.122.1]:5000 State eCONNECT_SYN->eCLOSE_WAIT
+0x20016418->FreeRTOS_connect 3850: FreeRTOS_connect() stopped due to an error
+Could not connect to server -128
+0x2000c648->vSocketClose 2156: FreeRTOS_closesocket[0ip port 31651 to c0a87a01ip port 5000]: buffers 60 socks 0
+connecting to echo server....
+0x20016418->prvTCPConnectStart 3714: FreeRTOS_connect: 15908 to c0a87a01ip:5000
+0x20016418->vTCPStateChange 529: Socket 15908 -> [192.168.122.1]:5000 State eCLOSED->eCONNECT_SYN
+0x2000c648->eARPGetCacheEntryGateWay 1089: ARP c0a87a01ip miss using c0a87a01ip
+0x2000c648->prvTCPPrepareConnect_IPV4 355: ARP for c0a87a01ip (using c0a87a01ip): rc=0 00-00-00-00-00-00
+0x2000c648->prvTCPNextTimeout 590: Connect[c0a87a01ip:5000]: next timeout 1: 500 ms
+0x200124c8->FreeRTOS_MatchingEndpoint 987: pxEasyFit: ARP c0a87a0aip -> c0a87a01ip
+0x2000c648->eARPProcessPacket 265: ipARP_REPLY from c0a87a01ip to c0a87a0aip end-point c0a87a0aip
+0x2000c648->prvSocketSetMSS_IPV4 85: prvSocketSetMSS: 1460 bytes for c0a87a01ip port 5000
+0x2000c648->prvWinScaleFactor 541: prvWinScaleFactor: uxRxWinSize 3 MSS 1460 Factor 0
+0x2000c648->prvTCPNextTimeout 590: Connect[c0a87a01ip:5000]: next timeout 1: 3000 ms
+#PCAP 24815808 175810752 6 34835 9278 
+0x2000c648->prvProcessIPPacket 1894: prvProcessIPPacket: Undefined Frame Type 
+#PCAP 24815808 -83885856 17 59668 59668 
+#PCAP 24815808 -83885856 17 59668 59668 
+59668 59668 59668 59668 59668 59668 59668 59668 59668 59668 59668 59668 0x2000c648->prvProcessIPPacket 1894: prvProcessIPPacket: Undefined Frame Type 
+0x2000c648->prvProcessIPPacket 1894: prvProcessIPPacket: Undefined Frame Type 
+#PCAP 24815808 -83885856 17 59668 59668 
+#PCAP 24815808 -83885856 17 59668 59668 
+59668 59668 59668 59668 59668 59668 59668 59668 59668 59668 59668 59668 0x2000c648->prvWinScaleFactor 541: prvWinScaleFactor: uxRxWinSize 3 MSS 1460 Factor 0
+0x2000c648->prvTCPNextTimeout 590: Connect[c0a87a01ip:5000]: next timeout 2: 6000 ms
+#PCAP 24815808 175810752 6 34835 9278 
+Could not connect to server -116
+0x2000c648->vSocketClose 2156: FreeRTOS_closesocket[0ip port 15908 to c0a87a01ip port 5000]: buffers 60 socks 0
+connecting to echo server....
+0x20016418->prvTCPConnectStart 3714: FreeRTOS_connect: 15754 to c0a87a01ip:5000
+0x20016418->vTCPStateChange 529: Socket 15754 -> [192.168.122.1]:5000 State eCLOSED->eCONNECT_SYN
+0x2000c648->prvSocketSetMSS_IPV4 85: prvSocketSetMSS: 1460 bytes for c0a87a01ip port 5000
+0x2000c648->prvWinScaleFactor 541: prvWinScaleFactor: uxRxWinSize 3 MSS 1460 Factor 0
+0x2000c648->prvTCPNextTimeout 590: Connect[c0a87a01ip:5000]: next timeout 1: 3000 ms
+#PCAP 24815808 175810752 6 34835 35389 
+#PCAP 24815808 -83885856 17 59668 59668 
+#PCAP 24815808 -83885856 17 59668 59668 
+59668 59668 59668 59668 59668 59668 59668 59668 59668 59668 59668 59668 0x2000c648->prvProcessIPPacket 1894: prvProcessIPPacket: Undefined Frame Type 
+0x200124c8->FreeRTOS_MatchingEndpoint 987: pxEasyFit: ARP c0a87a01ip -> c0a87a0aip
+0x2000c648->eARPProcessPacket 277: ipARP_REQUEST from c0a87a01ip to c0a87a0aip end-point c0a87a0aip
+0x2000c648->prvWinScaleFactor 541: prvWinScaleFactor: uxRxWinSize 3 MSS 1460 Factor 0
+0x2000c648->prvTCPNextTimeout 590: Connect[c0a87a01ip:5000]: next timeout 2: 6000 ms
+#PCAP 24815808 175810752 6 34835 35389 
+Could not connect to server -116
+0x2000c648->vSocketClose 2156: FreeRTOS_closesocket[0ip port 15754 to c0a87a01ip port 5000]: buffers 60 socks 0
+connecting to echo server....
+0x20016418->prvTCPConnectStart 3714: FreeRTOS_connect: 1854 to c0a87a01ip:5000
+0x20016418->vTCPStateChange 529: Socket 1854 -> [192.168.122.1]:5000 State eCLOSED->eCONNECT_SYN
+0x2000c648->prvSocketSetMSS_IPV4 85: prvSocketSetMSS: 1460 bytes for c0a87a01ip port 5000
+0x2000c648->prvWinScaleFactor 541: prvWinScaleFactor: uxRxWinSize 3 MSS 1460 Factor 0
+0x2000c648->prvTCPNextTimeout 590: Connect[c0a87a01ip:5000]: next timeout 1: 3000 ms
+#PCAP 24815808 175810752 6 34835 15879 
+0x200124c8->FreeRTOS_MatchingEndpoint 987: pxEasyFit: ARP c0a87a01ip -> c0a87a0aip
+0x2000c648->eARPProcessPacket 277: ipARP_REQUEST from c0a87a01ip to c0a87a0aip end-point c0a87a0aip
+51200 53775 0x200124c8->FreeRTOS_MatchingEndpoint 987: pxEasyFit: ARP c0a87a01ip -> c0a87a0aip
+0x2000c648->eARPProcessPacket 277: ipARP_REQUEST from c0a87a01ip to c0a87a0aip end-point c0a87a0aip
+0x2000c648->xProcessReceivedTCPPacket_IPV4 156: TCP: No active socket on port 33 (c0a87a01ip:200)
+0x2000c648->prvWinScaleFactor 541: prvWinScaleFactor: uxRxWinSize 3 MSS 1460 Factor 0
+0x2000c648->prvTCPNextTimeout 590: Connect[c0a87a01ip:5000]: next timeout 2: 6000 ms
+#PCAP 24815808 175810752 6 34835 15879 
+0x200124c8->FreeRTOS_MatchingEndpoint 987: pxEasyFit: ARP c0a87a01ip -> c0a87a0aip
+0x2000c648->eARPProcessPacket 277: ipARP_REQUEST from c0a87a01ip to c0a87a0aip end-point c0a87a0aip
+Could not connect to server -116
+0x2000c648->vSocketClose 2156: FreeRTOS_closesocket[0ip port 1854 to c0a87a01ip port 5000]: buffers 60 socks 0
+connecting to echo server....
+0x20016418->prvTCPConnectStart 3714: FreeRTOS_connect: 22096 to c0a87a01ip:5000
+0x20016418->vTCPStateChange 529: Socket 22096 -> [192.168.122.1]:5000 State eCLOSED->eCONNECT_SYN
+0x2000c648->prvSocketSetMSS_IPV4 85: prvSocketSetMSS: 1460 bytes for c0a87a01ip port 5000
+0x2000c648->prvWinScaleFactor 541: prvWinScaleFactor: uxRxWinSize 3 MSS 1460 Factor 0
+0x2000c648->prvTCPNextTimeout 590: Connect[c0a87a01ip:5000]: next timeout 1: 3000 ms
+#PCAP 24815808 175810752 6 34835 20566 
+0x2000c648->prvProcessIPPacket 1894: prvProcessIPPacket: Undefined Frame Type 
+0x200124c8->FreeRTOS_MatchingEndpoint 987: pxEasyFit: ARP c0a87a01ip -> c0a87a0aip
+0x2000c648->eARPProcessPacket 277: ipARP_REQUEST from c0a87a01ip to c0a87a0aip end-point c0a87a0aip
+#PCAP 846899392 175810752 17 51200 59915 
+#PCAP 24815808 -8738624 17 5601 5601 
+51200 59915 51200 59915 51200 59915 5601 5601 5601 5601 5601 5601 0x200124c8->FreeRTOS_MatchingEndpoint 987: pxEasyFit: ARP c0a87a01ip -> c0a87a0aip
+0x2000c648->eARPProcessPacket 277: ipARP_REQUEST from c0a87a01ip to c0a87a0aip end-point c0a87a0aip
+#PCAP 24815808 175810752 6 51200 14363 
+0x2000c648->prvWinScaleFactor 541: prvWinScaleFactor: uxRxWinSize 3 MSS 1460 Factor 0
+0x2000c648->prvTCPNextTimeout 590: Connect[c0a87a01ip:5000]: next timeout 2: 6000 ms
+#PCAP 24815808 175810752 6 34835 20566 
+0x2000c648->prvProcessIPPacket 1894: prvProcessIPPacket: Undefined Frame Type 
+0x200124c8->FreeRTOS_MatchingEndpoint 987: pxEasyFit: ARP c0a87a01ip -> c0a87a0aip
+0x2000c648->eARPProcessPacket 277: ipARP_REQUEST from c0a87a01ip to c0a87a0aip end-point c0a87a0aip
+#PCAP 846899392 175810752 1 0 0 
+Could not connect to server -116
+0x2000c648->vSocketClose 2156: FreeRTOS_closesocket[0ip port 22096 to c0a87a01ip port 5000]: buffers 60 socks 0
+connecting to echo server....
+0x20016418->prvTCPConnectStart 3714: FreeRTOS_connect: 22683 to c0a87a01ip:5000
+0x20016418->vTCPStateChange 529: Socket 22683 -> [192.168.122.1]:5000 State eCLOSED->eCONNECT_SYN
+0x2000c648->prvSocketSetMSS_IPV4 85: prvSocketSetMSS: 1460 bytes for c0a87a01ip port 5000
+0x2000c648->prvWinScaleFactor 541: prvWinScaleFactor: uxRxWinSize 3 MSS 1460 Factor 0
+0x2000c648->prvTCPNextTimeout 590: Connect[c0a87a01ip:5000]: next timeout 1: 3000 ms
+#PCAP 24815808 175810752 6 34835 39768 
+0x2000c648->prvWinScaleFactor 541: prvWinScaleFactor: uxRxWinSize 3 MSS 1460 Factor 0
+0x2000c648->prvTCPNextTimeout 590: Connect[c0a87a01ip:5000]: next timeout 2: 6000 ms
+#PCAP 24815808 175810752 6 34835 39768 
+Could not connect to server -116
+0x2000c648->vSocketClose 2156: FreeRTOS_closesocket[0ip port 22683 to c0a87a01ip port 5000]: buffers 60 socks 0
+connecting to echo server....
+0x20016418->prvTCPConnectStart 3714: FreeRTOS_connect: 29199 to c0a87a01ip:5000
+0x20016418->vTCPStateChange 529: Socket 29199 -> [192.168.122.1]:5000 State eCLOSED->eCONNECT_SYN
+0x2000c648->prvSocketSetMSS_IPV4 85: prvSocketSetMSS: 1460 bytes for c0a87a01ip port 5000
+0x2000c648->prvWinScaleFactor 541: prvWinScaleFactor: uxRxWinSize 3 MSS 1460 Factor 0
+0x2000c648->prvTCPNextTimeout 590: Connect[c0a87a01ip:5000]: next timeout 1: 3000 ms
+#PCAP 24815808 175810752 6 34835 3954 
+0x2000c648->prvWinScaleFactor 541: prvWinScaleFactor: uxRxWinSize 3 MSS 1460 Factor 0
+0x2000c648->prvTCPNextTimeout 590: Connect[c0a87a01ip:5000]: next timeout 2: 6000 ms
+#PCAP 24815808 175810752 6 34835 3954 
+Could not connect to server -116
+0x2000c648->vSocketClose 2156: FreeRTOS_closesocket[0ip port 29199 to c0a87a01ip port 5000]: buffers 60 socks 0
+connecting to echo server....
+0x20016418->prvTCPConnectStart 3714: FreeRTOS_connect: 31717 to c0a87a01ip:5000
+0x20016418->vTCPStateChange 529: Socket 31717 -> [192.168.122.1]:5000 State eCLOSED->eCONNECT_SYN
+0x2000c648->prvSocketSetMSS_IPV4 85: prvSocketSetMSS: 1460 bytes for c0a87a01ip port 5000
+0x2000c648->prvWinScaleFactor 541: prvWinScaleFactor: uxRxWinSize 3 MSS 1460 Factor 0
+0x2000c648->prvTCPNextTimeout 590: Connect[c0a87a01ip:5000]: next timeout 1: 3000 ms
+#PCAP 24815808 175810752 6 34835 58747 
+0x2000c648->prvWinScaleFactor 541: prvWinScaleFactor: uxRxWinSize 3 MSS 1460 Factor 0
+0x2000c648->prvTCPNextTimeout 590: Connect[c0a87a01ip:5000]: next timeout 2: 6000 ms
+#PCAP 24815808 175810752 6 34835 58747 
+Could not connect to server -116
+0x2000c648->vSocketClose 2156: FreeRTOS_closesocket[0ip port 31717 to c0a87a01ip port 5000]: buffers 60 socks 0
+connecting to echo server....
+0x20016418->prvTCPConnectStart 3714: FreeRTOS_connect: 20329 to c0a87a01ip:5000
+0x20016418->vTCPStateChange 529: Socket 20329 -> [192.168.122.1]:5000 State eCLOSED->eCONNECT_SYN
+0x2000c648->prvSocketSetMSS_IPV4 85: prvSocketSetMSS: 1460 bytes for c0a87a01ip port 5000
+0x2000c648->prvWinScaleFactor 541: prvWinScaleFactor: uxRxWinSize 3 MSS 1460 Factor 0
+0x2000c648->prvTCPNextTimeout 590: Connect[c0a87a01ip:5000]: next timeout 1: 3000 ms
+#PCAP 24815808 175810752 6 34835 26959 

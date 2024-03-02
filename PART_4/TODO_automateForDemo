@@ -1,0 +1,14 @@
+1) Open YAML -> show YAML
+2) Modify YAML -> rules
+3) Compile YAML to rules.h
+4) Inject rules.h in group5/PART_3/FreeRTOS/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/source/
+5) Start the run_demo.sh script and let it run
+6) Inject with scapy 6 packets :
+2  UDP 1 blocked 1 going trough
+2  TCP 1 blocked 1 going trough
+2  ICMP (ping test style)
+
+7)Stop exectution of run_demo.sh
+8)Run the pcap.py in PART_4 to compile the output.pcap
+9)Open wireshark output.pcap
+10)Filter the RTS packets and the SYN from 192.168.122.1 -> 192.168.122.10

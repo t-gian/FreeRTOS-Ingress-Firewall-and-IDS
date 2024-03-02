@@ -1,0 +1,9 @@
+- [v] make parser from JSON to C struct ( see firewall.c) 
+- [v] find a minimal way to store the ruleset ( objects, we have to be fast extremely fast) and memory conscious
+- [] create tests and integrate the already existing tests for IP stack
+- [v] handle function insertion
+- [X] look for optimizations in iptables code or others
+- [v] handle packet drops
+- [] figure out max possible number of rules and handle rule insertion in configuration file and consider max number of rules in the JSON parser.
+- [half_X] expose the REDIRECT flow for packet inspection
+- [v] check if we have to handle mangled packets
