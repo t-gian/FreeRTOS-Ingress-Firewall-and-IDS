@@ -1,6 +1,6 @@
 # FreeRTOS: Ingress Firewall design and Integration with IDS
 
-In Part_4/report_latex a .pdf report explaining in depth the Project is present.
+In PART_4/report_latex a .pdf report explaining in depth the Project is present.
 
 ## PART 1
 - Installation instructions for QEMU, compile from source and target compile options
