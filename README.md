@@ -14,7 +14,7 @@ In PART_4/report_latex a .pdf report explaining in depth the Project is present.
 
 ## PART 2
 - Scheduling and memory demos
-- Launch the "dLauncher.sh" this while prompt for the selection of the demo to run, after the demo are lauched to execute the next demo simply stop the execution and relaunch the script
+- Launch the "dLauncher.sh" this will prompt for the selection of the demo to run, after a demo is lauched to execute the next demo simply stop the execution and relaunch the script
 
 ## PART 3
 - Firewall implementation
