@@ -9,11 +9,10 @@
 ------------------------------------------------------------------------
 
 
-
-- Giorgio Fardo [(s331003)]
-- Luca Ponzo [(s323504)]
-- Michele Seira [(s323595)]
-- Gianfranco Trad [(s323713)]
+- Gianfranco Trad
+- Giorgio Fardo
+- Luca Ponzo
+- Michele Seira
 
 
 
